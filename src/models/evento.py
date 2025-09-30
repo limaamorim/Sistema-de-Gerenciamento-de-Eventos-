@@ -1,0 +1,71 @@
+# evento.py
+from datetime import datetime
+from models.participante import Participante
+
+class Evento:
+    def __init__(self, nome, data, local, capacidade, categoria, preco):
+        self.__nome = nome
+        self.__data = data
+        self.__local = local
+        self.__capacidade = capacidade
+        self.__categoria = categoria
+        self.__preco = preco
+        self.__participantes = []
+
+    # Getters
+    def get_nome(self):
+        return self.__nome
+
+    def get_data(self):
+        return self.__data.strftime('%m-%d')
+
+    def get_categoria(self):
+        return self.__categoria
+
+    def get_preco(self):
+        return self.__preco
+
+    def get_local(self):
+        return self.__local
+
+    def get_vagas_disponiveis(self):
+        return self.__capacidade - len(self.__participantes)
+
+    def get_participantes(self):
+        return self.__participantes
+    
+    @staticmethod
+    def validar_data_futura(data_str, formato='%d-%m-%Y %H:%M'):
+        agora = datetime.now()
+
+        try:
+            data_evento = datetime.strptime(data_str, formato)
+        except ValueError:
+            raise ValueError(f"Formato de data inválido. Use o formato: {formato}")
+
+        if data_evento < agora:
+            raise ValueError("A data do evento não pode ser anterior à data atual.")
+            
+        return data_evento
+
+    # Método de inscrição
+    def inscrever(self, participante):
+        if self.get_vagas_disponiveis() <= 0:
+            return False, "Evento Lotado"
+
+        if participante.get_email() in [p.get_email() for p in self.__participantes]:
+            return False, "Participante já inscrito!"
+
+        self.__participantes.append(participante)
+        return True, "Inscrição realizada!"
+
+    def detalhes(self):
+        return (f"Detalhes do Evento:\n"
+                f"Nome: {self.get_nome()}\n"
+                f"Data: {self.get_data()}\n"
+                f"Local: {self.get_local()}\n"
+                f"Categoria: {self.get_categoria()}\n"
+                f"Preço: R$ {self.get_preco():.2f}\n"  # Formata o preço com 2 casas decimais
+                f"Vagas Disponíveis: {self.get_vagas_disponiveis()}\n")
+                
+            
