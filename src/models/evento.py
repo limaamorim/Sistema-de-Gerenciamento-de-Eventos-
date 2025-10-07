@@ -7,9 +7,9 @@ class Evento:
         self.__nome = nome
         self.__data = data
         self.__local = local
-        self.__capacidade = capacidade
+        self.__capacidade = int[capacidade] # Indicar que é valor numerico inteiro
         self.__categoria = categoria
-        self.__preco = preco
+        self.__preco = float(preco) #Indicar que é variavel numerica
         self.__participantes = []
 
     # Getters
@@ -32,7 +32,7 @@ class Evento:
         return self.__capacidade - len(self.__participantes)
 
     def get_participantes(self):
-        return self.__participantes
+        return list(self.__participantes) #Gera uma lista, uma copia do original
     
     @staticmethod
     def validar_data_futura(data_str, formato='%d-%m-%Y %H:%M'):
@@ -75,6 +75,11 @@ class Evento:
         """
         return len(self.__participantes) * self.__preco
 
+    def contar_presentes(self):
+        return sum(1 for p in self.__participantes if hasattr(p, "is_presente") and p.is_presente())
+    
+
+    # Adioncei  total inscritos, presentes e receita atual.
     def detalhes(self):
         return (f"Detalhes do Evento:\n"
                 f"Nome: {self.get_nome()}\n"
@@ -82,6 +87,10 @@ class Evento:
                 f"Local: {self.get_local()}\n"
                 f"Categoria: {self.get_categoria()}\n"
                 f"Preço: R$ {self.get_preco():.2f}\n"  # Formata o preço com 2 casas decimais
-                f"Vagas Disponíveis: {self.get_vagas_disponiveis()}\n")
+                f"Vagas Disponíveis: {self.get_vagas_disponiveis()}\n"
+                f"Total Inscritos: {len(self.__participantes)} \n"
+                f"Presentes: {self.contar_presentes()} \n"
+                f"Receita atual (R$): {self.calcular_receita():.2f} \n")
+
                 
             
