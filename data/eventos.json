@@ -1,0 +1,13 @@
+[
+    {
+        "tipo": "Evento",
+        "nome": "Recnplay",
+        "data": "12-20",
+        "local": "Recife",
+        "capacidade": 100,
+        "categoria": "Tecnologia",
+        "preco": 10.0,
+        "extra": null,
+        "participantes": []
+    }
+]

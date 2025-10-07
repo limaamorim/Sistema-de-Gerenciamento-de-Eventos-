@@ -58,6 +58,22 @@ class Evento:
 
         self.__participantes.append(participante)
         return True, "Inscrição realizada!"
+    
+    def cancelar_inscricao(self, email):
+        """
+        Remove um participante da lista pelo e-mail.
+        """
+        for p in self.__participantes:
+            if p.get_email() == email:
+                self.__participantes.remove(p)
+                return True, "Inscrição cancelada com sucesso."
+        return False, "Participante não encontrado."
+
+    def calcular_receita(self):
+        """
+        Calcula receita total: número de participantes * preço do ingresso.
+        """
+        return len(self.__participantes) * self.__preco
 
     def detalhes(self):
         return (f"Detalhes do Evento:\n"
