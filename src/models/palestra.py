@@ -10,7 +10,7 @@ class Palestra(Evento):
     
     def detalhes(self):
         detalhes_palestra = super().detalhes()
-        return (f"{detalhes_palestra}\nPalestrante: {self.get_palestrante()}")
+        return f"{detalhes_palestra}Palestrante: {self.get_palestrante()}\n"
                 
                 
                

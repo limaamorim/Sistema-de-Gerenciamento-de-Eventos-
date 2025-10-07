@@ -11,6 +11,5 @@ class Workshop(Evento):
             return self.__material_necessario
 
         def detalhes(self):
-            
             detalhes_base = super().detalhes()
-            return f"{detalhes_base}\nMaterial Necessário: {self.get_material()}"
+            return f"{detalhes_base}Material Necessário: {self.get_material()}\n"

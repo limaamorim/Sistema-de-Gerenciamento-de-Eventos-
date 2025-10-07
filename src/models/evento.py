@@ -59,19 +59,21 @@ class Evento:
         self.__participantes.append(participante)
         return True, "Inscrição realizada!"
     
-      # Cancelar inscrição por email (método solicitado) - ADICIONADO
-    def cancelar_inscrição(self, email: str):
+    def cancelar_inscricao(self, email):
+        """
+        Remove um participante da lista pelo e-mail.
+        """
         for p in self.__participantes:
             if p.get_email() == email:
                 self.__participantes.remove(p)
-                return True, "Inscrição cancelada."
-            return False, "Participante não encontrado no evento"
-    
-    # CALCULAR RECEITA # AJUSTAR CASO TENHA CUPONS!
+                return True, "Inscrição cancelada com sucesso."
+        return False, "Participante não encontrado."
+
     def calcular_receita(self):
+        """
+        Calcula receita total: número de participantes * preço do ingresso.
+        """
         return len(self.__participantes) * self.__preco
-    # CONTAR PRESENTES, PARA AUXILIAR EM CHECKIN. # verifica por hasattr, se em participantes eles estao com o metodo
-    #is_presente acionado, se sim, soma um ao valor.
 
     def contar_presentes(self):
         return sum(1 for p in self.__participantes if hasattr(p, "is_presente") and p.is_presente())
