@@ -1,0 +1,14 @@
+[
+    {
+        "tipo": "Evento",
+        "nome": "Recnplay",
+        "data": "25/11/2026",
+        "hora": "11:00",
+        "local": "Recife",
+        "capacidade": 10,
+        "categoria": "Tecnologia",
+        "preco": 20.0,
+        "extra": null,
+        "participantes": []
+    }
+]

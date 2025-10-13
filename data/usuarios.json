@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Admin Master",
+        "email": "admin@evento.com",
+        "senha": "1234",
+        "tipo": "admin"
+    },
+    {
+        "nome": "Fernando",
+        "email": "fernando@gmail.com",
+        "senha": "123",
+        "tipo": "user"
+    },
+    {
+        "nome": "3",
+        "email": "6",
+        "senha": "5",
+        "tipo": "user"
+    },
+    {
+        "nome": "luis",
+        "email": "luis@gmail.com",
+        "senha": "123",
+        "tipo": "user"
+    },
+    {
+        "nome": "luana@gmail.com",
+        "email": "luana@gmail.com",
+        "senha": "1",
+        "tipo": "user"
+    },
+    {
+        "nome": "Ivis",
+        "email": "ivis@gmail.com",
+        "senha": "123",
+        "tipo": "user"
+    }
+]
