@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Admin Master",
+        "email": "admin@evento.com",
+        "senha": "1234",
+        "tipo": "admin"
+    },
+    {
+        "nome": "Davi",
+        "email": "davi@gmail.com",
+        "senha": "Davi",
+        "tipo": "user"
+    },
+    {
+        "nome": "Elidiane",
+        "email": "eli@gmail.com",
+        "senha": "lili12",
+        "tipo": "user"
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "tipo": "Workshop",
+        "nome": "Workshop Genética",
+        "data": "14/10/2025",
+        "hora": "23:30",
+        "local": "Recife",
+        "capacidade": 50,
+        "categoria": "Saude",
+        "preco": 30.0,
+        "extra": {
+            "materiais": "Notebook",
+            "instrutor": "Davi"
+        },
+        "participantes": [
+            {
+                "nome": "Davi",
+                "email": "davi@gmail.com",
+                "tipo": "user",
+                "checkin": true
+            }
+        ]
+    },
+    {
+        "tipo": "Evento",
+        "nome": "Rec n Play",
+        "data": "18/10/2025",
+        "hora": "12:00",
+        "local": "Recife",
+        "capacidade": 100,
+        "categoria": "Tecnologia",
+        "preco": 0.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Davi",
+                "email": "davi@gmail.com",
+                "tipo": "user",
+                "checkin": true
+            },
+            {
+                "nome": "Elidiane",
+                "email": "eli@gmail.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Palestra",
+        "nome": "Bioinformatica e SUS",
+        "data": "14/10/2025",
+        "hora": "23:25",
+        "local": "Recife",
+        "capacidade": 20,
+        "categoria": "Tecnologia",
+        "preco": 20.0,
+        "extra": "Fernando",
+        "participantes": [
+            {
+                "nome": "Davi",
+                "email": "davi@gmail.com",
+                "tipo": "user",
+                "checkin": true
+            },
+            {
+                "nome": "Elidiane",
+                "email": "eli@gmail.com",
+                "tipo": "user",
+                "checkin": true
+            }
+        ]
+    },
+    {
+        "tipo": "Palestra",
+        "nome": "Pedagogia e saude",
+        "data": "15/10/2025",
+        "hora": "12:00",
+        "local": "Recife",
+        "capacidade": 50,
+        "categoria": "Educação",
+        "preco": 50.0,
+        "extra": "Eliadine Nunes",
+        "participantes": [
+            {
+                "nome": "Elidiane",
+                "email": "eli@gmail.com",
+                "tipo": "user",
+                "checkin": true
+            }
+        ]
+    }
+]
