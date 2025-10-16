@@ -1,0 +1,279 @@
+[
+    {
+        "tipo": "Evento",
+        "nome": "Tech Summit 2025",
+        "data": "22/11/2025",
+        "hora": "09:00",
+        "local": "Centro de Convenções SP",
+        "capacidade": 200,
+        "categoria": "Tecnologia",
+        "preco": 150.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Lucas Pereira",
+                "email": "lucas@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Maria Oliveira",
+                "email": "maria@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Palestra",
+        "nome": "Inteligência Artificial na Educação",
+        "data": "10/12/2025",
+        "hora": "14:30",
+        "local": "Auditório Principal",
+        "capacidade": 120,
+        "categoria": "Educação",
+        "preco": 0.0,
+        "extra": "Prof. Dr. Ana Souza",
+        "participantes": [
+            {
+                "nome": "João Silva",
+                "email": "joao@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Carla Santos",
+                "email": "carla@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Evento",
+        "nome": "Encontro de Sustentabilidade",
+        "data": "15/12/2025",
+        "hora": "10:00",
+        "local": "Teatro Municipal",
+        "capacidade": 300,
+        "categoria": "Meio Ambiente",
+        "preco": 50.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Maria Oliveira",
+                "email": "maria@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "João Silva",
+                "email": "joao@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Workshop",
+        "nome": "Criação de Aplicativos Mobile",
+        "data": "18/11/2025",
+        "hora": "13:00",
+        "local": "Espaço Tech RJ",
+        "capacidade": 30,
+        "categoria": "Desenvolvimento",
+        "preco": 120.0,
+        "extra": {
+            "materiais": "Celular Android, Cabo USB",
+            "instrutor": "Eng. Rafael Martins"
+        },
+        "participantes": [
+            {
+                "nome": "Carla Santos",
+                "email": "carla@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Lucas Pereira",
+                "email": "lucas@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Workshop",
+        "nome": "Wokshop de IA",
+        "data": "16/10/2025",
+        "hora": "20:00",
+        "local": "Recife",
+        "capacidade": 103,
+        "categoria": "Tecnologia",
+        "preco": 0.0,
+        "extra": {
+            "materiais": "Notebook",
+            "instrutor": "Fernando"
+        },
+        "participantes": [
+            {
+                "nome": "João Silva",
+                "email": "joao@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Evento",
+        "nome": "Inovação e Empreendedorismo Jovem",
+        "data": "25/11/2025",
+        "hora": "15:00",
+        "local": "Centro Cultural Rio",
+        "capacidade": 150,
+        "categoria": "Empreendedorismo",
+        "preco": 80.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Fernanda Lima",
+                "email": "fernanda@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Ricardo Alves",
+                "email": "ricardo@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Beatriz Mendes",
+                "email": "beatriz@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Evento",
+        "nome": "Maratona de Programação 2025",
+        "data": "30/11/2025",
+        "hora": "08:00",
+        "local": "Campus Tech Recife",
+        "capacidade": 80,
+        "categoria": "Tecnologia",
+        "preco": 0.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Thiago Nunes",
+                "email": "thiago@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Rafael Rocha",
+                "email": "rafael@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Gustavo Ferreira",
+                "email": "gustavo@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Palestra",
+        "nome": "Saúde Mental no Trabalho",
+        "data": "20/11/2025",
+        "hora": "09:30",
+        "local": "Hospital das Clínicas SP",
+        "capacidade": 100,
+        "categoria": "Saúde",
+        "preco": 0.0,
+        "extra": "Dra. Patrícia Gomes",
+        "participantes": [
+            {
+                "nome": "Patrícia Gomes",
+                "email": "patricia@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Juliana Souza",
+                "email": "juliana@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Evento",
+        "nome": "Mostra de Arte Contemporânea",
+        "data": "27/11/2025",
+        "hora": "19:00",
+        "local": "Museu de Arte Moderna RJ",
+        "capacidade": 200,
+        "categoria": "Artes",
+        "preco": 30.0,
+        "extra": null,
+        "participantes": [
+            {
+                "nome": "Camila Duarte",
+                "email": "camila@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Maria Oliveira",
+                "email": "maria@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "André Costa",
+                "email": "andre@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    },
+    {
+        "tipo": "Workshop",
+        "nome": "Robótica e Inovação para Escolas",
+        "data": "03/12/2025",
+        "hora": "10:00",
+        "local": "Colégio Técnico Brasília",
+        "capacidade": 40,
+        "categoria": "Educação",
+        "preco": 70.0,
+        "extra": {
+            "materiais": "Kits de robótica",
+            "instrutor": "Eng. Luiz Tavares"
+        },
+        "participantes": [
+            {
+                "nome": "Beatriz Mendes",
+                "email": "beatriz@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Lucas Pereira",
+                "email": "lucas@email.com",
+                "tipo": "user",
+                "checkin": false
+            },
+            {
+                "nome": "Juliana Souza",
+                "email": "juliana@email.com",
+                "tipo": "user",
+                "checkin": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Administrador Geral",
+        "email": "admin@evento.com",
+        "senha": "1234",
+        "tipo": "admin"
+    },
+    {
+        "nome": "Lucas Pereira",
+        "email": "lucas@email.com",
+        "senha": "senha123",
+        "tipo": "user"
+    },
+    {
+        "nome": "Maria Oliveira",
+        "email": "maria@email.com",
+        "senha": "abc123",
+        "tipo": "user"
+    },
+    {
+        "nome": "João Silva",
+        "email": "joao@email.com",
+        "senha": "joao321",
+        "tipo": "user"
+    },
+    {
+        "nome": "Carla Santos",
+        "email": "carla@email.com",
+        "senha": "carla456",
+        "tipo": "user"
+    },
+    {
+        "nome": "Teste",
+        "email": "teste@email.com",
+        "senha": "1234",
+        "tipo": "user"
+    },
+    {
+        "nome": "User",
+        "email": "user@email.com",
+        "senha": "123",
+        "tipo": "user"
+    }
+]
